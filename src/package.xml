@@ -4,5 +4,13 @@
 		<members>*</members>
 		<name>ApexClass</name>
 	</types>
+    <types>
+        <members>Members</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>FieloRegistration</members>
+        <name>StaticResource</name>
+    </types>
 	<version>41.0</version>
 </Package>
