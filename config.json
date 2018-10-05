@@ -3,16 +3,20 @@
 			"version":"master",
 			"dependencies":[
 				{
+					"type":"package",
+					"name":"Fielo-Apps/fieloelr"
+				},
+				{
+					"type":"package",
+					"name":"Fielo-Apps/fieloprp"
+				},
+				{
+					"type":"linkRepository",
+					"name":"Fielo-Apps/Registration"
+				},
+				{
 					"type":"linkRepository",
 					"name":"Fielo-Connectors/fielogrs"
-				},
-				{
-					"type":"linkRepository",
-					"name":"Fielo-Plugins/fielocms-fieloelr"
-				},
-				{
-					"type":"linkRepository",
-					"name":"Fielo-Themes/origin"
 				}
 			]
 		}
