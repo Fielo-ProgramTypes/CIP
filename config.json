@@ -8,10 +8,6 @@
 				},
 				{
 					"type":"linkRepository",
-					"name":"Fielo-Plugins/fielocms-fieloprp"
-				},
-				{
-					"type":"linkRepository",
 					"name":"Fielo-Plugins/fielocms-fieloelr"
 				},
 				{
