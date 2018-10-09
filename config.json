@@ -3,19 +3,24 @@
 			"version":"master",
 			"dependencies":[
 				{
+					
 					"type":"package",
-					"name":"Fielo-Apps/fieloelr"
+					"version":"1.68",
+					"name":"FieloELR"
 				},
 				{
 					"type":"package",
-					"name":"Fielo-Apps/fieloprp"
+					"version":"1.36",
+					"name":"FieloPRP"
 				},
 				{
 					"type":"linkRepository",
+					"version":"master",
 					"name":"Fielo-Apps/Registration"
 				},
 				{
 					"type":"linkRepository",
+					"version":"master",
 					"name":"Fielo-Connectors/fielogrs"
 				}
 			]
