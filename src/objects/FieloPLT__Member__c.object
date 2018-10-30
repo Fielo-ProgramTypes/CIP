@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <fields>
+        <fullName>Address__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Member&apos;s company address or personal address.</inlineHelpText>
+        <label>Address</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Address_information__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select one of the options.</inlineHelpText>
+        <label>Address information</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Company</fullName>
+                    <default>false</default>
+                    <label>Company</label>
+                </value>
+                <value>
+                    <fullName>Personal</fullName>
+                    <default>false</default>
+                    <label>Personal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>City__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter city name.</inlineHelpText>
+        <label>City</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Company__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Member&apos;s Company name.</inlineHelpText>
+        <label>Company</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contractor_classification__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select one of the options.</inlineHelpText>
+        <label>Contractor classification</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>General engineering contractor</fullName>
+                    <default>false</default>
+                    <label>General engineering contractor</label>
+                </value>
+                <value>
+                    <fullName>General building contractor</fullName>
+                    <default>false</default>
+                    <label>General building contractor</label>
+                </value>
+                <value>
+                    <fullName>Specialty contractor</fullName>
+                    <default>false</default>
+                    <label>Specialty contractor</label>
+                </value>
+                <value>
+                    <fullName>Architect</fullName>
+                    <default>false</default>
+                    <label>Architect</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Country__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter country.</inlineHelpText>
+        <label>Country</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_without_transaction__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY() - FieloPLT__LastTransactionDate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days without transaction</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ID_number__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter only numbers here.</inlineHelpText>
+        <label>ID number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>I_work_for__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Select one of the options.</inlineHelpText>
+        <label>I work for:</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Electrical contractor</fullName>
+                    <default>false</default>
+                    <label>Electrical contractor</label>
+                </value>
+                <value>
+                    <fullName>Manufacturer</fullName>
+                    <default>false</default>
+                    <label>Manufacturer</label>
+                </value>
+                <value>
+                    <fullName>Manufacturer rep firm</fullName>
+                    <default>false</default>
+                    <label>Manufacturer rep firm</label>
+                </value>
+                <value>
+                    <fullName>Distributor</fullName>
+                    <default>false</default>
+                    <label>Distributor</label>
+                </value>
+                <value>
+                    <fullName>Maintenance, repair and operations (MRO)</fullName>
+                    <default>false</default>
+                    <label>Maintenance, repair and operations (MRO)</label>
+                </value>
+                <value>
+                    <fullName>Engineer firm</fullName>
+                    <default>false</default>
+                    <label>Engineer firm</label>
+                </value>
+                <value>
+                    <fullName>Architect firm</fullName>
+                    <default>false</default>
+                    <label>Architect firm</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Member_counter__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Member counter</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter Member&apos;s phone number.</inlineHelpText>
+        <label>Phone</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Post_Code__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter postcode.</inlineHelpText>
+        <label>Post Code</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Specify__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Fill in this field if you selected Other for I Work For.</inlineHelpText>
+        <label>Specify</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Specify_your_occupation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Fill in this field if you selected Other for Contractor Classification.</inlineHelpText>
+        <label>Specify your occupation</label>
+        <length>80</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Enter state abbreviation.</inlineHelpText>
+        <label>State</label>
+        <length>2</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

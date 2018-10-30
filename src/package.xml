@@ -5,6 +5,28 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>*</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>FieloPLT__Member__c.Address__c</members>
+        <members>FieloPLT__Member__c.Address_information__c</members>
+        <members>FieloPLT__Member__c.City__c</members>
+        <members>FieloPLT__Member__c.Company__c</members>
+        <members>FieloPLT__Member__c.Contractor_classification__c</members>
+        <members>FieloPLT__Member__c.Country__c</members>
+        <members>FieloPLT__Member__c.Days_without_transaction__c</members>
+        <members>FieloPLT__Member__c.ID_number__c</members>
+        <members>FieloPLT__Member__c.I_work_for__c</members>
+        <members>FieloPLT__Member__c.Member_counter__c</members>
+        <members>FieloPLT__Member__c.Phone__c</members>
+        <members>FieloPLT__Member__c.Post_Code__c</members>
+        <members>FieloPLT__Member__c.Specify__c</members>
+        <members>FieloPLT__Member__c.Specify_your_occupation__c</members>
+        <members>FieloPLT__Member__c.State__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>CIP_Contents</members>
         <name>StaticResource</name>
     </types>
