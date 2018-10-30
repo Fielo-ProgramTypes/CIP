@@ -30,5 +30,14 @@
         <members>CIP_Contents</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>FieloPRP__Invoice__c</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>FieloPLT__Member__c.Member_Status_Approved</members>
+        <members>FieloPLT__Member__c.Member_Status_Rejected</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
     <version>43.0</version>
 </Package>
