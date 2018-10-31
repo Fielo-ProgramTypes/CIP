@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Member_registration</fullName>
+        <description>Member registration</description>
+        <protected>false</protected>
+        <recipients>
+            <field>FieloPLT__Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityWelcomeEmailTemplate</template>
+    </alerts>
     <fieldUpdates>
         <fullName>Member_Status_Approved</fullName>
         <field>FieloPLT__Status__c</field>
