@@ -35,6 +35,10 @@
         <name>Workflow</name>
     </types>
     <types>
+        <members>FieloPLT__Member__c.Member_registration</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
         <members>FieloPLT__Member__c.Member_Status_Approved</members>
         <members>FieloPLT__Member__c.Member_Status_Rejected</members>
         <name>WorkflowFieldUpdate</name>
