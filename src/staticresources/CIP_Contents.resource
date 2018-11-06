@@ -113,7 +113,8 @@
             "objectAPIName" : "fieloplt__programassignment__c",
             "records" : [ ]
           } ]
-        }, {
+        } ]
+      }, {
         "objectAPIName" : "fieloplt__consent__c",
         "records" : [ ]
       }, {
