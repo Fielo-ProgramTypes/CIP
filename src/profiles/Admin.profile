@@ -3,17 +3,17 @@
 	<fieldPermissions>
 		<editable>true</editable>
 		<readable>true</readable>
-		<field>Company__c</field>
+		<field>FieloPLT__Member__c.Company__c</field>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>true</editable>
 		<readable>true</readable>
-		<field>Adress__c</field>
+		<field>FieloPLT__Member__c.Adress__c</field>
 	</fieldPermissions>
 		<fieldPermissions>
 		<editable>true</editable>
 		<readable>true</readable>
-		<field>Country__c</field>
+		<field>FieloPLT__Member__c.Country__c</field>
 	</fieldPermissions>
 	<fieldPermissions>
         <editable>false</editable>
