@@ -8,7 +8,7 @@
 	<fieldPermissions>
 		<editable>true</editable>
 		<readable>true</readable>
-		<field>FieloPLT__Member__c.Adress__c</field>
+		<field>FieloPLT__Member__c.Address__c</field>
 	</fieldPermissions>
 		<fieldPermissions>
 		<editable>true</editable>
