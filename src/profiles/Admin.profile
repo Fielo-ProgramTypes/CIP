@@ -3,86 +3,76 @@
 	<fieldPermissions>
 		<editable>true</editable>
 		<readable>true</readable>
+		<field>FieloPLT__Member__c.Address__c</field>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.Address_information__c</field>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.City__c</field>
+	</fieldPermissions>
+	<fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
 		<field>FieloPLT__Member__c.Company__c</field>
 	</fieldPermissions>
 	<fieldPermissions>
 		<editable>true</editable>
 		<readable>true</readable>
-		<field>FieloPLT__Member__c.Address__c</field>
+		<field>FieloPLT__Member__c.Contractor_classification__c</field>
 	</fieldPermissions>
-		<fieldPermissions>
+	<fieldPermissions>
 		<editable>true</editable>
 		<readable>true</readable>
 		<field>FieloPLT__Member__c.Country__c</field>
 	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.Days_without_transaction__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Agreement__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.ID_number__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Contact__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.I_work_for__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Email__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.Member_counter__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Image__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.Phone__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__LastTransactionDate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.Post_Code__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__IsManager__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.Specify__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>true</editable>
-        <field>FieloPLT__Member__c.FieloPLT__CurrentLevelMember__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.Specify_your_occupation__c</field>
+	</fieldPermissions>
 	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__MemberRecord__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__OrganizationAccount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Points__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Program__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-	<fieldPermissions>
-        <editable>false</editable>
-        <field>FieloPLT__Member__c.FieloPLT__User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
+		<editable>true</editable>
+		<readable>true</readable>
+		<field>FieloPLT__Member__c.State__c</field>
+	</fieldPermissions>
 </Profile>
