@@ -214,7 +214,7 @@
         <externalId>false</externalId>
         <inlineHelpText>Enter postcode.</inlineHelpText>
         <label>Post Code</label>
-        <length>9</length>
+        <length>20</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
