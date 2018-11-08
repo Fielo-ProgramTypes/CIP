@@ -126,9 +126,8 @@
         <externalId>false</externalId>
         <inlineHelpText>Enter only numbers here.</inlineHelpText>
         <label>ID number</label>
-        <precision>18</precision>
+        <length>18</length>
         <required>false</required>
-        <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -215,9 +214,8 @@
         <externalId>false</externalId>
         <inlineHelpText>Enter postcode.</inlineHelpText>
         <label>Post Code</label>
-        <precision>9</precision>
+        <length>9</length>
         <required>false</required>
-        <scale>0</scale>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
