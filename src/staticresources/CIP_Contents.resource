@@ -22,7 +22,7 @@
         "value" : "CIP_Contents"
       }, {
         "apiName" : "fieloplt__version__c",
-        "value" : "1.004"
+        "value" : "1.006"
       } ],
       "relatedList" : [ {
         "objectAPIName" : "fieloplt__ruletrigger__c",
