@@ -4,14 +4,14 @@
 			"dependencies":[
 				{
 					
-					"type":"package",
-					"version":"1.70",
-					"name":"FieloELR"
+					"type":"linkRepository",
+					"version":"master",
+					"name":"Fielo-Apps/fieloelr"
 				},
 				{
-					"type":"package",
-					"version":"1.36",
-					"name":"FieloPRP"
+					"type":"linkRepository",
+					"version":"master",
+					"name":"Fielo-Apps/fieloprp"
 				},
 				{
 					"type":"linkRepository",
